@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+	  <title>Catalogo</title>
+     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+	 <!-- tags meta -->
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!-- fonts -->
+	 <link rel="stylesheet" href="stile/style.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+	 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	 <link href="https://fonts.googleapis.com/css2?family=Inter&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+	 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	 <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+	 <!-- Bootstrap CSS -->
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+  	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+		    <a class="navbar-brand" href="index.html"><span class="logo" title="titolo e logo del progetto">A Filippo Argenti!</span></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarScroll">
+		      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+		        <li class="nav-item">
+		          <a class="nav-link" aria-current="page" href="index.html" title="Home">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#" title="Progetto">Progetto</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link active" href="#" title="Catalogo Generale">Catalogo Generale</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Categorie">
+		            Categorie
+		          </a>
+		          <ul class="dropdown-menu">
+		            <li><a class="dropdown-item" href="testi.html">Testi</a></li>
+		            <li><a class="dropdown-item" href="#">Immagini</a></li>
+		            <li><a class="dropdown-item" href="#">Audiovideo</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="index.html" title="Contesto">Contesto</a>
+		        </li>
+		      </ul>
+		      <form class="d-flex" role="search">
+		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		        <button class="btn btn-outline-success" type="submit" title="Bottone di ricerca">Cerca</button>
+		      </form>
+		    </div>
+		</div>
+	</nav>
+	<!-- section -->
+	<section>
+	    <div class="container-fluid bg-success-subtle">
+				<div class="row">
+					<p><h2><span class="list_catalogo">Catalogo</span></h2></p>
+				</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid bg-success-subtle">
+			<div class="row">
+				<aside class="col-md-3 bg-body-tertiary">
+						<div class="row">
+							<p><strong><h3>Filtra per tipologia</h3></strong></p>
+								<p><strong>Testi</strong></p>
+									<div class="container">
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										  <label class="form-check-label" for="flexCheckDefault">
+										    Testi letterari
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										  <label class="form-check-label" for="flexCheckDefault">
+										    Testi musicali
+										  </label>
+									  	</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										  <label class="form-check-label" for="flexCheckDefault">
+										    Saggi
+										  </label>
+										</div>
+									</div>
+								<p><strong>Immagini</strong></p>
+									<div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										  <label class="form-check-label" for="flexCheckDefault">
+										    Dipinti
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										  <label class="form-check-label" for="flexCheckDefault">
+										    Illustrazioni
+										  </label>
+										</div>
+									</div>
+								<p><strong>Audiovideo</strong></p>
+									<div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										  <label class="form-check-label" for="flexCheckDefault">
+										    Videoclip musicali
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+										  <label class="form-check-label" for="flexCheckDefault">
+										    Performances
+										  </label>
+										</div>
+									</div>
+								<div class="d-grid gap-2 col-6 mx-auto pt-2">
+									<button class="btn btn-success" type="button" title="Attivi i filtri selezionati">Carica</button>
+								</div>
+						</div>
+						<div class="row pb-2">
+							<!-- ordine alfabetico -->
+							<p><strong><h3>Ordina</h3></strong></p>
+							<div class="btn-group dropend pt-2">
+							  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							    Ordine alfabetico
+							  </button>
+							  <ul class="dropdown-menu">
+							     <li><a class="dropdown-item" href="#">A-Z</a></li>
+   								 <li><a class="dropdown-item" href="#">Z-A</a></li>
+							  </ul>
+							</div>
+							<!-- ordine cronologico -->
+							<div class="btn-group dropend pt-2 pb-2">
+							  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							    Ordine cronologico
+							  </button>
+							  <ul class="dropdown-menu">
+							     <li><a class="dropdown-item" href="#">Date crescenti</a></li>
+   								 <li><a class="dropdown-item" href="#">Date descrescenti</a></li>
+   								 <li><a class="dropdown-item" href="#">Ultimi caricamenti</a></li>
+							  </ul>
+							</div>
+						</div>
+				</aside>
+				<!-- navbar cards -->
+				<div class="col-md-8">
+						<div class="container">
+							<div class="col-md-12">
+								<ul class="nav nav-pills justify-content-center pt-2">
+								  <li class="nav-item">
+								    <a class="nav-link active bg-success" aria-current="page" href="#" title="Sezione Generale">Generale</a>
+								  </li>
+								  <li class="nav-item">
+								    <a class="nav-link text-black" href="testi.html" title="Sezione Testi">Testi</a>
+								  </li>
+								  <li class="nav-item">
+								    <a class="nav-link text-black" href="#" title="Sezione Immagini">Immagini</a>
+								  </li>
+								  <li class="nav-item">
+								    <a class="nav-link text-black" href="#" title="Sezione Audiovideo">Audiovideo</a>
+								  </li>
+								</ul>
+							</div>
+						
+						<!-- cards -->
+						<div class="container bg-success-subtle pt-3">
+							<!-- riga 1 -->
+							<div class="row">
+								<!-- card 1 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/ed-commentata.jpeg" class="card-img-top" alt="copertina">
+									  <div class="card-body">
+									    <h5 class="card-title">Divina Commedia, Inferno. Edizione commentata</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore:</strong> <a href="http://viaf.org/viaf/97105654" target="_blank" alt="VIAF" class="autori" title="In VIAF">Dante Alighieri</a>, <a href="http://viaf.org/viaf/109946893" target="_blank" alt="VIAF" class="autori" title="In VIAF">Umberto Bosco</a>, <a href="http://viaf.org/viaf/2642527" target="_blank" alt="VIAF" class="autori" title="In VIAF">Giovanni Reggio</a>, <a href="http://viaf.org/viaf/112463406" target="_blank" alt="VIAF" class="autori" title="In VIAF">Salvatore S. Nigro</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>2010</li>
+									    <li class="list-group-item"><strong>Tipo: </strong> Testo</li>
+									    <li class="list-group-item"><strong>Fonte: </strong>Dante Alighieri, <i>Divina Commedia, Inferno</i>. A cura di Umberto Bosco e Giovanni Reggio. Letture critiche di Salvatore S. Nigro - Milano: Le Monnier scuola, 2010, pp. 133-136.</li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="item.html" target="_blank" class="card-link" title="Vai alla pagina dell'item">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+								<!-- card 2 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/inferno.jpg" class="card-img-top" alt="...">
+									  <div class="card-body">
+									    <h5 class="card-title">Divina Commedia, Inferno, Canto VIII. Edizione digitale</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore: </strong><a href="http://viaf.org/viaf/97105654" target="_blank" alt="VIAF" class="autori">Dante Alighieri</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>2003</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Testo</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="http://www.bibliotecaitaliana.it/testo/bibit000019" target="_blank" title="Vai al sito" class="autori">Biblioteca italiana</a></li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+								<!-- card 3 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/caparezza1.jpg" class="card-img-top">
+									  <div class="card-body">
+									    <h5 class="card-title">Argenti Vive</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore:</strong><a href="http://viaf.org/viaf/80369270" target="_blank" alt="VIAF" class="autori">Caparezza</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>2014</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Testo</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="https://genius.com/Caparezza-argenti-vive-lyrics" target="_blank" title="Vai al sito" class="autori">Genius</a></li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+							</div>
+
+							<!-- riga 2 -->
+							<div class="row pt-3">
+								<!-- card 4 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/boccaccio.jpg" class="card-img-top">
+									  <div class="card-body">
+									    <h5 class="card-title">Decameron, giornata IX, novella 8. Edizione digitale</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore: </strong><a href="http://viaf.org/viaf/64002165" target="_blank" alt="VIAF" class="autori">Giovanni Boccaccio</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>2003</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Testo</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="http://www.bibliotecaitaliana.it/testo/bibit000267" target="_blank" title="Vai al sito" class="autori">Biblioteca italiana</a></li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+								<!-- card 5 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/dore-27-29.jpg" class="card-img-top">
+									  <div class="card-body">
+									    <h5 class="card-title">Canto VIII, vv. 27-29</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore: </strong><a href="http://viaf.org/viaf/41839207" target="_blank" alt="VIAF" class="autori">Gustave Doré</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>1861-1868 ca.</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Immagine</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="https://commons.wikimedia.org/w/index.php?search=gustave+dore+canto+8&title=Special:MediaSearch&go=Go&type=image" target="_blank" title="Vai al sito" class="autori">Wikimedia Commons</a></li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+								<!-- card 6 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/gustave-dore.jpg" class="card-img-top">
+									  <div class="card-body">
+									    <h5 class="card-title">Canto VIII, vv. 39-41</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore: </strong> <a href="http://viaf.org/viaf/41839207" target="_blank" alt="VIAF" class="autori">Gustave Doré</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>1861-1868 ca.</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Immagine</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="https://commons.wikimedia.org/w/index.php?search=gustave+dore+canto+8&title=Special:MediaSearch&go=Go&type=image" target="_blank" title="Vai al sito" class="autori">Wikimedia Commons</li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+							</div>
+
+							<!-- riga 3 -->
+							<div class="row pt-3">
+								<!-- card 7 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/delacroix.jpg" class="card-img-top">
+									  <div class="card-body">
+									    <h5 class="card-title">La barca di Dante</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore: </strong><a href="http://viaf.org/viaf/7389086" target="_blank" alt="VIAF" class="autori">Eugène Delacroix</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>1822</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Immagine</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="https://commons.wikimedia.org/w/index.php?search=la+barca+di+dante&title=Special:MediaSearch&go=Go&type=image" target="_blank" title="Vai al sito" class="autori">Wikimedia Commons</a></li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+								<!-- card 8 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/capa-video.jpg" class="card-img-top">
+									  <div class="card-body">
+									    <h5 class="card-title">Argenti Vive, videoclip</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore: </strong><a href="http://viaf.org/viaf/80369270" target="_blank" alt="VIAF" class="autori">Caparezza</a>, Roberto Tafuro, Davide Lemma</li>
+									    <li class="list-group-item"><strong>Data: </strong>2015</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Audiovideo</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="https://www.youtube.com/watch?v=0TX_FP7QNEk" target="_blank" title="Vai al sito" class="autori">Youtube</a></li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+								<!-- card 9 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/sermonti-icona.jpg" class="card-img-top">
+									  <div class="card-body">
+									    <h5 class="card-title">Sermonti legge Dante, Inferno, Canto VIII: Filippo Argenti nel pantano degli iracondi</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore: </strong><a href="http://viaf.org/viaf/261704103" target="_blank" alt="VIAF" class="autori">Vittorio Sermonti</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>2000</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Audiovideo</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="https://www.raiplay.it/video/2020/03/Sermonti-legge-Dante---Inferno-canto-VIII-b985be50-b4ef-40ea-8383-f5ed5a4082ec.html" target="_blank" title="Vai al sito" class="autori">Raiplay</a></li>
+									  </ul>
+									  <div class="card-body text-center">
+									    <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+							</div>
+
+							<!-- riga 4 -->
+							<div class="row pt-3">
+								<!-- card 10 -->
+								<div class="col-md-4">
+									<div class="card" style="width: 16rem;">
+									  <img src="img/stradano.jpg" class="card-img-top">
+									  <div class="card-body">
+									    <h5 class="card-title">Illustrazione dell'Inferno di Dante, Canto 8</h5>
+									  </div>
+									  <ul class="list-group list-group-flush">
+									    <li class="list-group-item"><strong>Autore: </strong><a href="http://viaf.org/viaf/29699451" target="_blank" alt="VIAF" class="autori">Giovanni Stradano</a></li>
+									    <li class="list-group-item"><strong>Data: </strong>1587</li>
+									    <li class="list-group-item"><strong>Tipo: </strong>Immagine</li>
+									    <li class="list-group-item"><strong>Fonte: </strong><a href="https://commons.wikimedia.org/w/index.php?search=giovanni+stradano+canto+8&title=Special:MediaSearch&go=Go&type=image" target="_blank" title="Vai al sito" class="autori">Wikimedia Commons</a></li>
+									  </ul>
+									  <div class="card-body text-center">
+									     <button type="button" class="btn btn-secondary bg-success"><a href="#" class="card-link">Tutti i metadati</a></button>
+									  </div>
+									</div>
+								</div>
+								<div class="col-md-4"></div>
+								<div class="col-md-4"></div>
+							</div>	
+						</div>
+				</div>	
+				<div class="col-md-1"></div>
+		    </div>	
+		</div>
+		<!-- bottoni next prev -->
+		<div class="container-fluid">
+			<div class="row">
+				<nav aria-label="Page navigation example">
+					<ul class="pagination justify-content-center pt-2">
+					    <li class="page-item">
+					      <a class="page-link text-black" href="#" aria-label="Previous" title="Precedente">
+					        <span aria-hidden="true">&laquo;</span>
+					      </a>
+					    </li>
+					    <li class="page-item"><a class="page-link text-black" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link text-black" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link text-black" href="#">3</a></li>
+					    <li class="page-item">
+					      <a class="page-link text-black" href="#" aria-label="Next" title="Successivo">
+					        <span aria-hidden="true">&raquo;</span>
+					      </a>
+					    </li>
+					</ul>
+				</nav>
+			</div>
+		</div>	
+	</section>
+	<!-- footer -->
+	<footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; A Filippo Argenti! 2023</div></div>
+                    <div class="col-auto">
+                        <p class="small text-white">By Alessandra Lombardi</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" title="Vai al sito Creative Commons">Crediti e licenze</a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>		
+  </body>
+</html>

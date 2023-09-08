@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+	 <title>A Filippo Argenti!</title>
+	 <link rel="icon" type="image/x-icon" href="img/favicon.png">
+	 <!-- tags meta -->
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!-- fonts -->
+	 <link rel="stylesheet" href="stile/style.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+	 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	 <link href="https://fonts.googleapis.com/css2?family=Inter&family=Nothing+You+Could+Do&family=The+Nautigal&display=swap" rel="stylesheet">
+	 <!-- metadati Dublin Core -->
+	 <meta name="DC.Title" content="A Filippo Argenti!">
+  	 <meta name="DC.Creator" content="Alessandra Lombardi">
+  	 <meta name="DC.Subject" content="Filippo Argenti, Canto VIII Inferno, Divina Commedia">
+  	 <meta name="DC.Description" content="Il Progetto è una risorsa digitale focalizzata sulla figura di Filippo Argenti, presentata nel canto ottavo dell'Inferno dantesco, e il rapporto che intrattiene con altre espressioni artistiche ad esso correlato.">
+  	 <meta name="DC.Publisher" content="Università di Bologna">
+  	 <meta name="DC.Date" content="2023">
+  	 <meta name="DC.Type" content="Sito web">
+  	 <meta name="DC.Format" content="HTML/CSS/JS">
+  	 <meta name="DC.Identifier" content="TBD una volta che sia pubblicato">
+  	 <meta name="DC.Language" content="Italiano">
+  	 <meta name="DC.Rights" content="CC-BY-SA 4.0">
+  	 <!-- Bootstrap CSS -->
+  	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
+  </head>
+  <body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="index.html"><span class="logo" title="titolo e logo del progetto">A Filippo Argenti!</span>
+	    </a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarScroll">
+	      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#" title="Home">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#progetto" title="Progetto">Progetto</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="list_item.html" target="_blank" title="Catalogo Generale">Catalogo Generale</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Categorie">
+	            Categorie
+	          </a>
+	          <ul class="dropdown-menu">
+	            <li><a class="dropdown-item" href="testi.html" target="_blank">Testi</a></li>
+	            <li><a class="dropdown-item" href="#">Immagini</a></li>
+	            <li><a class="dropdown-item" href="#">Audiovideo</a></li>
+	          </ul>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#contesto" title="Contesto">Contesto</a>
+	        </li>
+	      </ul>
+	      <form class="d-flex" role="search">
+	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	        <button class="btn btn-outline-success" type="submit" title="Bottone di ricerca">Cerca</button>
+	      </form>
+	    </div>
+	  </div>
+	</nav>
+	<!-- titolo sito -->
+	<header class="back">
+		<div>
+			<p class="titolo" class="text-center">Ciao Dante, ti ricordi di me? <br>Sono Filippo Argenti</p>
+		</div>
+	</header>
+	<!-- sezioni -->
+	<!-- progetto e personaggio -->
+	<section>
+		<div class="container bg-white pt-3 pb-2">
+			<div class="row">
+				<div class="col-md-6" id="progetto">
+					<h2><strong>Il Progetto</strong></h2>
+						<p>Il Progetto intende focalizzare l'attenzione sulla figura di <strong>Filippo Argenti</strong>, presente nel <strong>Canto VIII</strong> dell'<cite>Inferno</cite> dantesco. <br>Lo scopo è quello di restituire le riflessioni e lo stato dell'arte legato a questa figura che, da persona storicamente esistita, è diventata una figura letteraria e artistica. Il sito, dunque, intende raccogliere in un <strong>catalogo</strong> gli item del patrimonio culturale, disponibili sul web, connessi all'Argenti. <br>Tutte le risorse del catalogo sono associate a dei <strong>metadati</strong> che seguono lo standard <strong>Dublin Core (DC)</strong>; per i testi digitali si aggiunge anche la marcatura in <strong>XML/TEI</strong> (Text Encoding Initiative). I metadati sono resi disponibili all'utente e si offre la possibilità di scaricamento.</p>			
+				</div>
+				<div class="col-md-6">
+					<h2><strong>Il Personaggio</strong></h2>
+						<p>Chi è Filippo Argenti? Il vero nome di Filippo Argenti è Filippo de' Cavicciuoli, ma viene soprannominato l'Argenti per aver ferrato il suo cavallo con ferri d'argento. Vive a Firenze sotto la consorteria degli Adimari nello stesso periodo di Dante (XIII-XIV secolo). <br>Le notizie biografiche sul suo conto sono poche, ma tutte le fonti riportano la presenza di un cattivo rapporto con Dante a causa del diverso orientamento politico (era infatti un guelfo di parte Nera). <br>Gli studi sul suo conto in rapporto al Canto VIII e a Dante hanno provato ad inquadrare meglio la reazione di esagerata freddezza che il poeta ha nei suoi confronti quando lo incontra tra gli iracondi della palude Stigia. Filippo Argenti è dunque una figura che permette di far emergere una rabbia profonda e convinta di Dante, tanto eccessiva quanto umana.</p>
+						<button type="button" class="btn btn-success"><a class ="enciclopedia" href="https://www.treccani.it/enciclopedia/filippo-argenti_%28Enciclopedia-Dantesca%29/" target="_blank" title="Sito Treccani Enciclopedia Dantesca" alt="sito enciclopedia dantesca">Scopri Filippo Argenti nell'Enciclopedia dantesca</a></button>
+						<button type="button" class="btn btn-success"><a class ="enciclopedia" href="#contesto" title="Vai al Contesto">Vai al Contesto</a></button>	
+				</div>		
+			</div>
+		</div>
+	</section>
+
+	<!-- catalogo -->
+	<section class="retro">
+		<div class="container-fluid text-center pt-2">
+			<div><h2><strong>Il Catalogo</strong></h2></div>
+		</div>
+		<div class="container pt-2 pb-2">
+			<div class="card text-bg-dark">
+			  <img src="img/otto.jpg" class="card-img" alt="img_canto_8">
+			  <div class="card-img-overlay">
+			    <h3 class="card-title">Testi</h3>
+			    <p class="card-text">Scopri la raccolta di testi che riguardano Filippo Argenti: dal <cite>Canto VIII</cite> dell'Inferno fino ad <cite>Argenti Vive</cite> di Caparezza.</p>
+			 	<button type="button" class="btn btn-outline-secondary"><a href="testi.html" target="_blank" class="bot-catalogo" title="Vai alla sezione Testi del catalogo">Esplora</a></button>
+			  </div>
+			</div>
+		</div>
+		<div class="container pt-2 pb-2">
+			<div class="card text-bg-dark">
+			  <img src="img/immagini.jpg" class="card-img" alt="delacroix_barcadidante">
+			  <div class="card-img-overlay">
+			    <h3 class="card-title">Immagini</h3>
+			    <p class="card-text">Scopri come la figura di Filippo Argenti è stata rappresentata da artisti importanti come Eugène Delacroix, Gustave Doré e altri.</p>
+			    <button type="button" class="btn btn-outline-secondary"><a href="#" class="bot-catalogo" title="Vai alla sezione Immagini del catalogo">Esplora</a></button>
+			  </div>
+			</div>
+		</div>
+		<div class="container pt-2 pb-2">
+			<div class="card text-bg-dark">
+			  <img src="img/audiovideo.jpg" class="card-img" alt="img_video_caparezza">
+			  <div class="card-img-overlay">
+			    <h3 class="card-title">Audiovideo</h3>
+			    <p class="card-text">Scopri le risorse audiovisive per immergerti ancora di più nell'immaginario dantesco e le sue reinterpretazioni.</p>
+			   	<button type="button" class="btn btn-outline-secondary"><a href="#" class="bot-catalogo" title="Vai alla sezione Audiovideo del catalogo">Esplora</a></button>
+			  </div>
+			</div>
+		</div>
+		<div class="container text-center pt-3 pb-3">
+			<button type="button" class="btn btn-success btn-lg"><a href="list_item.html" target="_blank" class="bot-catalogo" title="Vai alla sezione del Catalogo Generale">Esplora tutto il Catalogo</a></button>	
+		</div>
+	</section>
+	
+	<!-- contesto -->
+	<section>
+		<div class="container-fluid bg-body-tertiary text-center border border-5 border-success-subtle" id="contesto">
+			<div class="row text-center pt-4 pb-2"><h2><strong><span >Il Contesto</span></strong></h2></div>
+			<div class="container">
+				<div class="row">
+					<p>Questo spazio è destinato alla presentazione del contesto generale di partenza da cui muove il progetto, ovvero il <strong>Canto VIII</strong> dell'Inferno. <br>Di seguito troverai un breve riassunto delle sequenze narrative principali e un Wordcloud interattivo del testo completo realizzato con Voyant. <br>Infine, se vuoi scoprire visivamente l'Oltretomba dantesco e localizzare il canto, basta cliccare sul bottone che trovi in basso!</p>
+				</div>
+				<!-- accordion -->
+				<div class="row">
+					<div class="accordion accordion-flush" id="accordionFlushExample">
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+					     <strong>Apparizione di Flegiàs (vv. 1 — 30)</strong>    
+					      </button>
+					    </h2>
+					    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+					      <div class="accordion-body">Siamo nel V Cerchio degli incontinenti, in particolare tra gli iracondi e accidiosi. Dante e Virgilio si trovano sulla sponda della Palude Stigia. Dante fa notare la presenza di segnali luminosi a Virgilio. Il maestro lo avvisa che tra i vapori e la nebbia vedrà colui che stanno aspettando: il traghettatore Flegiàs. La figura infernale apostrofa subito Dante perchè l'ha scambiato per un dannato; Virgilio lo zittisce e gli ordina di trasportarli con la sua barca attraverso la palude.</div>
+					    </div>
+					  </div>
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+					     <strong>Incontro con Filippo Argenti (vv.  31 — 63)</strong>
+					      </button>
+					    </h2>
+					    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+					      <div class="accordion-body">Dante riconosce tra i dannati iracondi Filippo Argenti e gli rivolge parole di condanna. Questa figura è talmente disprezzata da Dante al punto da esprimere a Virgilio il desiderio di vederlo azzuffarsi con gli altri dannati. Così avviene. Dante si gode la scena.</div>
+					    </div>
+					  </div>
+					  <div class="accordion-item">
+					    <h2 class="accordion-header">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+					      <strong>Descrizione delle Città di Dite e approdo all'altra sponda (vv. 64 — 81)</strong>
+					      </button>
+					    </h2>
+					    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+					      <div class="accordion-body">Viene offerta la descrizione di quello che Dante si trova davanti: delle alte mura rossastre con torri simili a moschee da cui provengono delle urla angoscianti. Intanto Flegiàs approda all'altra sponda e sollecita i due poeti a scendere dalla barca in tono concitato.</div>
+					    </div>
+						</div>
+						<div class="accordion-item">
+						    <h2 class="accordion-header">
+						      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+						     <strong>Opposizione dei diavoli di Dite (vv. 82 — 130)</strong>
+						      </button>
+						    </h2>
+						    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+						      <div class="accordion-body">Dante e Virgilio si trovano una schiera di diavoli all'ingresso della città. Come sempre Virgilio cerca di parlare con i demoni per spiegare la necessità di passare per volere divino. I diavoli sbattono le porte in faccia a Virgilio; quest'ultimo, però, rassicura subito Dante comunicandogli che sta per arrivare un messo celeste che gli consentirà di proseguire il viaggio.</div>
+						    </div>
+		    		    </div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<!-- voyant -->
+							<div title="Wordcloud realizzato con Voyant a partire dal Inferno VIII">
+								<iframe style='width: 600px; height: 263px;' src='https://voyant-tools.org/tool/Cirrus/?corpus=0f47e9c78f90c631d7658641c0ca8d85'></iframe>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="container pt-5 ps-5">
+								<div class="d-grid gap-2 col-6 mx-auto">
+								  <button class="btn btn-success" type="button"><a href="https://www.alpacaprojects.com/inferno/" target="_blank" title="Vai alla mappa" class="bot-contesto">Visualizza la mappa dell'Inferno</a></button>
+								  <button class="btn btn-success" type="button"><a href="list_item.html" target="_blank" title="Catalogo Generale" class="bot-contesto">Vai al Catalogo</a></button>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer class="bg-dark py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; A Filippo Argenti! 2023</div></div>
+                <div class="col-auto">
+                    <p class="small text-white">By Alessandra Lombardi</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" title="Vai al sito Creative Commons">Crediti e licenze</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>	
+  </body>
+</html>

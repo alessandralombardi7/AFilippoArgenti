@@ -1,0 +1,69 @@
+body {
+	background-color: whitesmoke;
+}
+
+.logo {
+	font-family: 'Inter', sans-serif;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+ .back {
+ 	background-image: url("../img/sfondo.jpg");
+ 	background-position: center;
+ 	background-attachment: fixed;
+ 	padding-bottom: 100px;
+ }
+
+ .titolo {
+    font-family: 'Inter', sans-serif;
+	font-family: 'Nothing You Could Do', cursive;
+	font-family: 'The Nautigal', cursive;
+ 	font-size: 160px;
+ 	text-align: center;
+ 	color: #141C45;
+ }
+
+  .enciclopedia {
+  	text-decoration: none;
+  	color: white;
+  }
+
+  .bot-catalogo {
+  	text-decoration: none;
+  	color:white;
+  }
+
+  .retro {
+  	background-image: url("../img/retro.jpg");
+ 	background-position: center;
+ 	background-attachment: fixed;
+ }
+
+.bot-contesto {
+	text-decoration: none;
+	color:white;
+}
+
+.list_catalogo {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color:#30371E;
+}
+
+.autori {
+	color: black;
+}
+
+.card-link {
+	text-decoration: none;
+	color: white;
+}
+
+.box {
+	width:100%;
+	height:50%;
+}
+
+.dc-tei {
+	text-decoration: none;
+	color:white;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<metadati 
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dc:title>Dante Alighieri, Divina Commedia, Inferno. A cura di Umberto Bosco e Giovanni Reggio. Letture critiche di Salvatore S. Nigro (Introduzione al Canto VIII)</dc:title>
+	<dc:creator>Dante Alighieri</dc:creator>
+	<dc:creator>Umberto Bosco</dc:creator>
+	<dc:creator>Giovanni Reggio</dc:creator>
+	<dc:creator>Salvatore S. Nigro</dc:creator>
+	<dc:date>2010</dc:date>
+	<dc:subject>Saggio</dc:subject>
+	<dc:subject>Divina Commedia</dc:subject>
+	<dc:subject>1300</dc:subject>
+	<dc:subject>Filippo Argenti</dc:subject>
+	<dc:subject>Edizione commentata</dc:subject>
+	<dc:description>Edizione commentata della prima cantica della Divina Commedia di Dante Alighieri. Ogni canto presenta un'introduzione generale, il testo originale con note di commento e, solo per alcuni canti, una lettura critica finale di Salvatore S. Nigro.</dc:description>
+	<dc:publisher>Le Monnier scuola</dc:publisher>
+	<dc:type>Testo</dc:type>
+	<dc:source>Dante Alighieri, Divina Commedia, Inferno. A cura di Umberto Bosco e Giovanni Reggio. Letture critiche di Salvatore S. Nigro - Milano: Le Monnier scuola, 2010, pp. 133-136.</dc:source>
+	<dc:identifier>ISBN: 978-88-00-20824-6</dc:identifier>
+	<dc:language>It</dc:language>
+	<dc:rights>Accesso libero</dc:rights>	
+</metadati>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI
+xmlns="http://www.tei-c.org/ns/1.0" xml:id="inferno_canto_8_intro">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Dante Alighieri, Divina Commedia, Inferno. A cura di Umberto Bosco e Giovanni Reggio. Letture critiche di Salvatore S. Nigro (Introduzione al Canto VIII): trascrizione in formato digitale.</title>
+				<author >Alighieri, Dante</author>
+				<author xml:id="UB" href="http://viaf.org/viaf/109946893">Bosco, Umberto</author>
+				<author xml:id="GR" href="http://viaf.org/viaf/2642527">Reggio, Giovanni</author>
+				<author xml:id="SN" href="http://viaf.org/viaf/112463406">Nigro, Salvatore S.</author>
+				<respStmt>
+					<resp>Trascrizione di</resp>
+					<name xml:id="AL">Alessandra Lombardi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Marcatura di</resp>
+					<name xml:id="AL">Alessandra Lombardi</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università di Bologna</publisher>
+				<pubPlace>Bologna</pubPlace>
+				<availability>
+					<p>Questo documento è liberamente accessibile per uso personale o scientifico. Vietato uso commerciale.</p>
+					<date>2023</date>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Dante Alighieri, Divina Commedia, Inferno. A cura di Umberto Bosco e Giovanni Reggio. Letture critiche di Salvatore S. Nigro - Milano: Le Monnier scuola, 2010, pp. 133-136.</bibl>
+				<idno type="ISBN">978-88-00-20824-6</idno>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>La trascrizione e la codifica di questo documento elettronico comprende esclusivamente l'introduzione al Canto VIII a fini di un progetto per un esame universitario.</p>
+			</projectDesc>	
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>Italiano</langUsage>
+			<listBibl>
+				<bibl xml:id="C">D. Alighieri, Commedia</bibl>
+				<bibl xml:id="E">Virgilio, Eneide</bibl>
+				<bibl xml:id="C8">D. Alighieri, Commedia, Inferno, Canto VIII</bibl>
+			</listBibl>
+			<particDesc>
+				<listPerson>
+					<person xml:id="FA" href="http://viaf.org/viaf/388159474310227662338">
+						<persName>Filippo Argenti</persName>
+					</person>
+					<person xml:id="V" href="http://viaf.org/viaf/8194433">
+						<persName>Virgilio</persName>
+					</person>
+					<person xml:id="DA" href="http://viaf.org/viaf/97105654">
+						<persName>Dante Alighieri</persName>
+					</person>
+					<person xml:id="GB" href="http://viaf.org/viaf/64002165">
+						<persName>Giovanni Boccaccio</persName>
+					</person>
+					<person xml:id="EP" href="http://viaf.org/viaf/5005504">
+						<persName>Ernesto Parodi</persName>
+					</person>
+					<person xml:id="GT" href="http://viaf.org/viaf/88742788">
+						<persName>Giuseppe Toffanin</persName>
+					</person>
+					<person xml:id="VF" href="http://viaf.org/viaf/251718836">
+						<persName>Vanni Fucci</persName>
+					</person>
+					<person xml:id="FD" href="http://viaf.org/viaf/25412398">
+						<persName>Forese Donati</persName>
+					</person>
+					<person xml:id="BD">
+						<persName>Branca Doria</persName>
+					</person>
+					<person xml:id="BdA">
+						<persName>Bocca degli Abati</persName>
+					</person>
+					<person xml:id="Fr.A">
+						<persName>Frate Alberigo</persName>
+					</person>
+					<person xml:id="MA">
+						<persName>Maestro Adamo</persName>
+					</person>
+					<person xml:id="S">
+						<persName>Sinone</persName>
+					</person>
+					<person xml:id="MO" href="http://viaf.org/viaf/37018805">
+						<persName>Attilio Momigliano</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>Canto VIII</head>
+			<p><hi rend="bold">Dove</hi> Nella palude Stigia, quinto cerchio</p>
+			<p><hi rend="bold">Peccatori puniti</hi> Gli iracondi</p>
+			<p><hi rend="bold">Personaggi</hi> Dante, Virgilio, Flegiàs, Filippo Argenti</p>
+		</front>
+		<body>
+			<head><hi rend="bold">Introduzione</hi></head>
+			<div n="1" type="Sezione">
+				<head>L'INIZIO DEL CANTO</head>
+					<p type="titolo_paragrafo">L'oscurità densa,caratteristica del canto</p>
+						<p>L'inferno dantesco è immerso nell'oscurità ma è qui, nella <rs type="luogo_inventato">palude Stigia</rs>, che il poeta immagina il buio più grasso e opaco a causa del fumo che esala dall'acqua putrida condensandosi in «nebbia folta» (<hi rend="italic">If</hi>, <num value="9">IX</num> 6): l'oscurità è l'elemento fondamentale delle scene drammatiche di questo canto. Nelle tenebre si profilano le sagome di due torri: una vicina, alta, ai piedi della quale i due poeti si arresteranno; l'altra lontana. L'oscurità è solcata da segnali luminosi fra le due torri, come quelli che le fortificazioni si scambiavano in tempo di guerra. <persName ref="#DA">Dante</persName>, inquieto, domanda in modo concitato al suo maestro che cosa significhino quei segnali, e <persName ref="#V">Virgilio</persName> risponde che già si vede il loro effetto: infatti, una barca si avvicina velocissima, guidata da un nocchiero.</p>
+
+					<p type="titolo_paragrafo">L'arrivo di Flegiàs</p>
+						<p>È <rs type="personaggio">Flegiàs</rs> che, credendo <persName ref="#DA">Dante</persName> un'<q>«anima fella»</q>, un peccatore, da caricare sulla barca per immergerlo nella palude, o da traghettare oltre, verso gironi ancora più infimi, gli grida che è ormai giunto al termine del viaggio. Arriva gridando, senza ragione, come griderà senza ragione al termine della traversata: grida perchè perennemente sovreccitato dall'ira, come i peccatori della sua palude. Tuttavia traghetterà i due poeti dalla riva esterna a quella interna della palude; lì c'è la porta della <rs type="luogo_inventato">città di Dite</rs>, o di Lucifero: il <rs type="luogo_inventato">basso Inferno</rs>, dove sono puniti i peccati più gravi.</p>
+			</div>
+			<div n="2" type="Sezione">
+				<head>I PERSONAGGI DEL CANTO</head>
+					<p type="titolo_paragrafo">Flegiàs e il tema del fuoco</p>
+						<p>Chi è <rs type="personaggio">Flegiàs</rs>? L'<title type="opera_letteraria" rend="italic" ref="#E">Eneide</title>lo menzionava, ma nessun tratto virgiliano è passato nel personaggio dantesco; nè altri testi classici noti a <persName ref="#DA">Dante</persName> servono a chiarirne la personalità. Forse il nostro poeta conosceva una tradizione secondo cui <rs type="personaggio">Flegiàs</rs>, sdegnato contro <rs type="personaggio">Apollo</rs> che aveva sedotto sua figlia <rs type="personaggio">Coronide</rs>, aveva incendiato il tempio di <rs type="luogo" href="https://www.geonames.org/263219/delphi.html">Delfi</rs>. Probabilmente <persName ref="#DA">Dante</persName> collegava il nome con l'idea del fuoco e della fiamma: glielo dicevano i lessici medievali, glielo confermava l'evidente vicinanza del nome con quello del <rs type="luogo_inventato">fiume Flegetonte</rs>, da tutti interpretato come <q>«fiume di fuoco»</q>. La fantasia del poeta in questo momento è dominata dall'idea del fuoco: ce lo conferma la descrizione delle fortificazioni della <rs type="luogo_inventato">città di Dite</rs> con la sua fitta insistenza su quell'idea: <mentioned ref="#C8"><note type="vv. 69-72" resp="#AL">«'Maestro, già le sue meschite / là entro certe ne la valle cerno, / le <emph rend="italic" resp="#UB; #GR">vermiglie</emph> come se di foco uscite uscite / fossero'. Ed ei mi disse: 'Il <emph rend="italic" resp="#UB; #GR">foco</emph> etterno / ch'entro l'<emph rend="italic" resp="#UB; #GR">affoca</emph> le dimostra rosse...'»</note></mentioned>. Naturale che a questa città conducesse un incendiario, il cui nome derivava dal fuoco.</p>
+
+					<p type="titolo_paragrafo">Questioni e ipotesi su Flegiàs</p>
+						<p>Gli studiosi sono assai discordi circa la natura del compito di <rs type="personaggio">Flegiàs</rs>. Pare, dal <abbr expan="verso">v.</abbr> 21, che la palude sia sotto la sua giurisdizione; ma a che titolo? È traghettatore abituale o occasionale? Se abituale, imbarca solo le anime destinate allo <rs type="luogo_inventato">Stige</rs> (opinione prevalente) per lasciarle cadere nella melma al centro della palude, o tutte quelle in viaggio per il <rs type="luogo_inventato">basso Inferno</rs>? E se, invece, è occasionale, ha anche il compito di primo difensore della <rs type="luogo_inventato">città di Dite</rs>, la cui porta è difesa da una moltitudine di diavoli? <rs type="personaggio">Flegiàs</rs>, benchè privo di connotati demoniaci e mostruosi, è assimilabile ai custodi dei cerchi precedenti, <rs type="personaggio">Cerbero</rs>, <rs type="personaggio">Pluto</rs>, oppure a coloro che presteranno aiuto a <persName ref="#DA">Dante</persName> in difficili passaggi da una parte all'altra zona infernale, <rs type="personaggio">Nesso</rs> (canto <num value="12">XII</num>), <rs type="personaggio">Gerione</rs> (canti <num value="16-17">XVI-XVII</num>), <rs type="personaggio">Anteo</rs> (canto <num value="31">XXXI</num>)? O è solo un traghettatore come <rs type="personaggio">Caronte</rs>? Perlustra continuamente la palude, o risiede di solito all'ingresso della città, da cui lo allontanano i segnali della torre sull'altra riva? Ciascuna di queste e altre ipotesi ha sostenitori convinti, spesso dottissimi e acutissimi: il che vuol dire che i dati offertici dal poeta sono incerti, non sufficienti a risolvere la questione; il che vuol dire ancora che a <persName ref="#DA">Dante</persName> non interessava che fosse risolta. <q who="#EP">«Non interroghiamo, che sarebbe vano, il silenzio»</q>, scrisse una volta <persName ref="#EP">Ernesto Parodi</persName>, uno dei maggiori dantisti del primo Novecento. Constatiamo che il poeta ha disegnato <rs type="personaggio">Flegiàs</rs> sommariamente: un po' <rs type="personaggio">Cerbero</rs>, un po' <rs type="personaggio">Gerione</rs>, molto <rs type="personaggio">Caronte</rs>; e fermiamoci qui. Noi vogliamo condurre una lettura quanto più possibile attenta, si, ma non una lettura d'immaginazione; spiegare quel che <persName ref="#DA">Dante</persName> ha detto, non quel che non ha detto (e in taluni casi è dimostrabile che ha voluto non dircelo).</p>
+
+					<p type="titolo_paragrafo">L'incontro del canto: il fiorentino Filippo Argenti</p>
+						<p>L'incontro che <persName ref="#DA">Dante</persName> immagina di fare nella palude ci riconduce a <rs type="luogo" href="https://www.geonames.org/3176959/florence.html">Firenze</rs>; ma non la <rs type="luogo" href="https://www.geonames.org/3176959/florence.html">Firenze</rs> delle grandi passioni politiche e dei grandi mali, bensì una <rs type="luogo" href="https://www.geonames.org/3176959/florence.html">Firenze</rs> minore, di piccole angherie, rivalità e borie. D'improvviso, si fa innanzi un iracondo tutto lordo di fango che domanda a <persName ref="#DA">Dante</persName> chi egli sia; il poeta risponde subito brusco; le battute del concitato dialogo sono troncate dal manesco spirito, che tenta di rovesciare la barca. <rs type="persona" ref="#V">Virgilio</rs> interviene energico, respinge e rimbrotta sprezzante il dannato; poi, abbraccia e bacia il discepolo; lo loda con entusiastica solennità, con implicazioni addirittura religiose, per il suo atteggiamento verso l'iracondo: <mentioned ref="#C8"><note type="vv. 44-45" resp="#AL">«Alma sdegnosa, / benedetta colei che 'n te s'incinse!»</note></mentioned>. Non basta: <persName ref="#DA">Dante</persName> esprime il desiderio di vedere lo spirito sprofondare in quella broda; il maestro gli risponde che presto 'godrà' dello spettacolo di un'ulteriore punizione dell'avversario; e infatti le <q>«fangose genti»</q> ne fanno strazio incitandosi a vicenda <mentioned ref="#C8"><note type="v. 61" resp="#AL">«'A Filippo Argenti!'»</note></mentioned>. <persName ref="#DA">Dante</persName> dice che, ancora mentre ne scrive, loda e ringrazia Dio d'avergli concesso di assistere a quello scempio. <persName ref="#FA">Filippo</persName>, solo contro tutti, non può sfogare l'ira impotente che contro sè stesso: <mentioned ref="#C8"><note type="v. 63" resp="#AL">«in sè medesmo si volvea co' denti»</note></mentioned>.</p>
+
+					<p type="titolo_paragrafo">Lo strano comportamento di Dante: aspetti controversi</p>
+						<p>Tutti i commentatori, antichi e moderni, hanno notato nell'episodio un che di eccessivo, di disarmonico. C'è sproporzione fra il peccato di <persName ref="#FA">Argenti</persName> nella vita, l'iracondia, il suo contegno qui nell'<rs type="luogo_immaginario">Inferno</rs>, che in fondo non consiste in altro che in uno scatto d'ira (<persName ref="#DA">Dante</persName> stesso definisce <persName ref="#FA">Argenti</persName> uno <q>«spirito bizzarro»</q>, cioè, come chiarisce <persName ref="#GB">Boccaccio</persName>, pronto all'ira, a passare alle vie di fatto <q>«per qualunque menoma cagione»</q>), e l'odio di <persName ref="#DA">Dante</persName>, clamorosamente approvato da <persName ref="#V">Virgilio</persName>, caso unico in tutto il poema. Quello che sconcerta non è vedere <persName ref="#DA">Dante</persName> così duro e persino crudele: lo sarà anche con <persName ref="#VF">Vanni Fucci</persName> (<hi rend="italic"><abbr extend="Inferno">If</abbr></hi> <num value="24">XXIV</num> 97 <abbr extend="seguenti">ss.</abbr>), con <persName ref="#BdA">Bocca degli Abati</persName> (<hi rend="italic"><abbr extend="Inferno">If</abbr></hi> <num value="32">XXXII</num> 87 <abbr extend="seguenti">ss.</abbr>) con <persName ref="#Fr.A">frate Alberigo</persName> e <persName ref="#BD">Branca Doria</persName> (<hi rend="italic"><abbr extend="Inferno">If</abbr></hi> <num value="33">XXXIII</num> 109 <abbr extend="seguenti">ss.</abbr>). Quest'odio non è giustificato da ciò che la <title rend="italic" ref="#C">Commedia</title> ci presenta; <persName ref="#FA">Argenti</persName> appare bersaglio troppo meschino per uno sdegno così altamente lodato. <persName ref="#DA">Dante</persName> dal suo canto non sembra meritare l'elogio: ha semplicemente rimbeccato un dannato, gli ha buttato sul viso la sua soddisfazione d'averlo riconosciuto e visto in quello stato; insomma non ha fatto nulla di spiritualmente eroico, tale da giustificare l'intervento del maestro, ovvero il plauso di <persName ref="#DA">Dante</persName> a se stesso.</p>
+
+					<p type="titolo_paragrafo">Un fatto storico impossibile da ricostruire</p>
+						<p>C'è dunque nell'episodio qualcosa che resta al di sotto della pagina. La maggior parte dei moderni ammette un odio privato di <persName ref="#DA">Dante</persName> per <persName ref="#FA">Argenti</persName>; gli antichi ci parlano di uno schiaffo che <persName ref="#FA">Filippo</persName> avrebbe dato all'<persName ref="#DA">Alighieri</persName>; raccontano che gli Adimari, la consorteria a cui apparteneva, si opposero sempre al ritorno in patria del poeta e che uno di essi si impadronì dei beni dell'esule. Magari sono notizie non vere, fiorite sul testo stesso della <title rend="italic" ref="#C">Commedia</title>, ma proprio questo importa perchè significa che anche per gli antichi il testo dantesco non bastava e ne cercavano la spiegazione fuori di esso, nella biografia.</p>
+
+					<p type="titolo_paragrafo">Una vendetta contro lo strapotere di pochi arroganti</p>
+						<p>In ogni caso, lo sprezzo di <persName ref="#DA">Dante</persName> è per l'intera casata degli Adimari, come ci dice un altro luogo del poema: essa è <mentioned>«oltracotata schiatta che s'indraca / dietro a chi fugge, e a chi mostra 'l dente / o ver la borsa, com'agnel si placa» (<hi rend="italic"><abbr extend="Paradiso">Pd</abbr></hi> <num value="16">XVI</num> 115-117)</mentioned>: una famiglia superba, arrogante, vile. È possibile che nei versi di questo canto bruci un'umiliazione inflitta a <persName ref="#DA">Dante</persName> dai suoi potenti vicini di casa; e infatti il poeta insiste sul lato umiliante della pena a cui <persName ref="#FA">Argenti</persName> è condannato, sul sudiciume che lo lorda tutto. Ma c'è senza dubbio anche il riflesso delle umiliazioni che a <rs type="luogo" ref="https://www.geonames.org/3176959/florence.html">Firenze</rs> semplici cittadini o anche piccoli nobili, come erano gli <persName ref="#DA">Alighieri</persName>, subivano da parte di certe famiglie potenti. Si tratta di una vendetta a cui il poeta, trasferendola nell'<rs type="luogo_inventato">Oltretomba</rs>, conferisce un crisma religioso; e del resto, come dice <persName ref="#GT">Toffanin</persName>, <q who="#GT">«nell'animo di chi lo prova il furor di vendetta è sempre furor di giustizia»</q>: le due parole, nella <title rend="italic" ref="#C">Commedia</title>, sono spesso sinonimi.</p>
+
+					<p type="titolo_paragrafo">Aspetti stilistici del duello verbale tra Dante e Argenti</p>
+						<p>La meschinità «orgogliosa», cioè arrogante, dell'avversario e dell'ambiente piccino in cui essa si esercita è confermata dalla volgarità e rozzezza degli atti di <persName ref="#FA">Filippo</persName>, e dalla tecnica del diverbio che, adeguandosi a essa, <persName ref="#DA">Dante</persName> immagina di avere con lui. È una schermaglia rapidissima, a botta e risposta: ciascuno dei contendenti riprende l'offesa del'avversario e la ritorce. <q who="#FA">«Chi se' tu chie vieni anzi ora?»</q> dice <persName ref="#FA">Filippo</persName>; e <persName ref="#DA">Dante</persName>: <q who="#DA">«S'i' vegno, non rimango; ma tu chi se'...?»</q>; <persName ref="#FA">Filippo</persName>: <q who="#FA">«Vedi che son un che piango»</q>; <persName ref="#DA">Dante</persName> fa rimbalzare il verbo: <q who="#DA">«Con piangere e con lutto, / spirito maledetto, ti rimani»</q>. La battuta del pianto s'inserisce in questo serrato duello verbale ed è risposta al <q who="#DA">«S'i' vegno, non rimango»</q>; non può essere dunque altro che una stizzosa ammissione d'essere un dannato, e altri dannati infatti l'adoperano; non può, cioè, avere risonanze interiori, che getterebbero una luce di pietà sul dannato e sarebbe in disaccordo con tutto l'episodio. Anche l'ultima difesa di <persName ref="#FA">Filippo</persName>, quella di tacere il nome, è abbattuta immediatamente da <persName ref="#DA">Dante</persName>: <q who="#DA">«i' ti conosco, ancor sie lordo tutto»</q>. È questa una tecnica di «tenzone» ingiuriosa che ha altri esempi in <persName ref="#DA">Dante</persName>. Nella tenzone giovanile di <persName ref="#FD">Forese Donati</persName>, soprattutto, nella quale le botte e le risposte si stendono, senza perdere di virulenza, per sei sonetti (tre per ciascun interlocutore); ma anche nell'<title rend="italic" ref="#C">Inferno</title>: tali il diverbio tra <persName ref="MA">Maestro Adamo</persName> e <persName ref="#S">Sinone</persName> (<hi rend="italic"><abbr extend="Inferno">If</abbr></hi> <num value="30">XXX</num> 100-129), e quello più breve tra <persName ref="#DA">Dante</persName> stesso e <persName ref="#BdA">Bocca degli Abati</persName> (<hi rend="italic"><abbr extend="Inferno">If</abbr></hi> <num value="32">XXXII</num> 87-102). Per queste prove realistiche in chiave comica, e le loro possibili incidenze morali e sul costume sociale, si veda l'<hi rend="italic">Introduzione</hi> a <hi rend="italic"><abbr extend="Inferno">If</abbr></hi> <num value="30">XXX</num>.</p>
+			</div>
+			<div n="3" type="Sezione">
+				<head>LA PARTE CONCLUSIVA DEL CANTO: LA CITTA' DI DITE</head>
+					<p type="titolo_paragrafo">Il tono inquieto fluisce anche nel finale del canto e prepara il successivo</p>
+						<p><persName ref="#DA">Dante</persName> ha cura di segnare lo stacco fra l'episodio di <persName ref="#FA">Filippo Argenti</persName> e il seguito: <q who="#DA">«Quivi il lasciammo, che più non ne narro»</q> e aggiunge: <q who="#DA">«ma ne l'orecchie mi percosse un duolo»</q>. Sono gli alti lamenti delle anime della <rs type="luogo_inventato">città di Dite</rs> ormai prossima. L'inquietudine e concitazione del gesto, della frase, del ritmo, che avevano caratterizzato l'inizio del canto, assumendo nell'episodio di <persName ref="#FA">Argenti</persName> caratteri speciali, dominano il resto del canto e quasi tutto il successivo, sino al pacificante intervento di un messo divino. Ha osservato in proposito <persName ref="#MO">Momigliano</persName> che <q who="#MO">l'agitazione degli irosi protagonisti - <rs type="personaggio">Flegiàs</rs>, i dannati, i diavoli, <rs type="personaggio">le Furie</rs>»</q> (questi ultimi personaggi appariranno ben presto) - <q who="#MO">«si propaga all'intorno, nello scenario, in <persName ref="#V">Virgilio</persName>, in <persName ref="#DA">Dante</persName>»</q>. Significativo a tal proposito il rilievo drammatico che nelle scene della palude ha la figura di <persName ref="#V">Virgilio</persName>, la sua passionale partecipazione agli avvenimenti: motivi che in tutto il poema sono tutt'altro che consueti.</p>
+
+					<p type="titolo_paragrafo">La città di Dite e i diavoli guardiani</p>
+						<p>Penetrati con la barca di <rs type="personaggio">Flegiàs</rs> nell'interno del profondo fossato, le «alte fosse» che si costituiscono un vallo intorno alla città, il nocchiero con un grande giro giunge all'ingresso di questa, e fa sbarcare i due viaggiatori. Subito appare una moltitudine di diavoli, che si oppongono all'ingresso di <persName ref="#DA">Dante</persName> con parole non dissimili da quelle dei custodi precedenti, ma con assai maggiore energia e «oltranza»; a vincere la loro opposizione e quella delle <rs type="personaggi">Furie</rs>, che presto si aggiungeranno, non basta <persName ref="#V">Virgilio</persName>, ma è necessario un diretto intervento divino. A questa scena saranno consacrati metà del canto <num value="7">VII</num> e quasi tutto il <num value="9">IX</num>: poichè la sua unità narrativa non può essere scissa, la considereremo nell'<hi rend="italic">Introduzione</hi> al canto successivo.</p>
+
+					<p type="titolo_paragrafo">I peccati di "malizia" e la strenua difesa dei diavoli</p>
+						<p>Ci basti, al momento, osservare che <persName ref="#DA">Dante</persName> ha finora incontrato peccati che nascono da passioni non dominate; d'ora in poi si avranno peccati (<hi rend="italic">If</hi> <num value="11">XI</num> 22 <abbr extend="seguenti">ss.</abbr>) di «malizia», nati cioè da volontà di male, che si propongono come fine l' «ingiuria», sia con la violenza sia con l'inganno, ai danni che le forze infernali difendano con particolare accanimento questo loro dominio del male; e che per vincerle la ragione umana abbia bisogno del diretto espresso aiuto di Dio.</p>
+			</div>
+		</body>
+	</text>
+	
+</TEI>
